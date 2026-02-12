@@ -96,7 +96,6 @@ graph TD
 | :-----------------------------: | :-----------------------------: |
 | ![转换前](screenshots/转换前.png) | ![转换后](screenshots/转换后.png) |
 
-
 ## 下载
 
 您可以直接下载打包好的可执行文件，无需安装Python环境：
@@ -147,7 +146,21 @@ python pdf2ppt.py
 
 ## 版本历史
 
-### v0.3 (Latest)
+## 🤖 Agent Skill 集成 (New!)
+
+本项目现已提供标准的 **AI Agent Skill** 包，支持 Agent 直接调用。
+
+- **Skill 路径**: `./skill-pdf2ppt`
+- **能力描述**: 将 PDF 文档转换为可编辑的 PowerPoint (PPTX) 演示文稿。
+- **调用方式**:
+  ```bash
+  python skill-pdf2ppt/scripts/main.py --pdf_path "input.pdf" --token "YOUR_TOKEN"
+  ```
+- **查看详情**: 请阅读 [skill-pdf2ppt/SKILL.md](skill-pdf2ppt/SKILL.md)
+
+## 版本历史
+
+### v0.3
 
 **🎯 智能解析增强**
 
